@@ -3,9 +3,9 @@
  *
  * My first java application. Functioning AI. Requires JavaV6 or higher.
  *
- * @by CPCookieMan
+ * @Copyright MMXII by CPCookieMan
  * @version 1.00 started 1/3/2012
- * @current version InDev last updated 1/19/2012
+ * @current version InDev last updated 2/9/2012
  */
 
 //TODO LIST
