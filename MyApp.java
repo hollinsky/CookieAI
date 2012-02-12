@@ -750,13 +750,11 @@ public class MyApp {
     			}
     			else
     			{
-    					questionAsked = JOptionPane.showInputDialog("HAL open the pod bay doors?");
-    			}
-    			else if (askNum == 6)
-    				
     				JOptionPane.showMessageDialog(null, "Oh no, I seem to be having a problem with the question randomizer, I'll have to quit out now.");
     				quitAsked = 1;
-    				
-    			{
-    				JOptionPane.showMessageDialog(null, "First Attempt of a question by Nolan879");
-    				quitAsked = 1;
+    			}
+    		}
+    	}
+
+    }
+}
