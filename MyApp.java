@@ -33,11 +33,8 @@ public class MyApp {
     	String question3;
     	String question4;
     	String question5;
-<<<<<<< HEAD
     	String question6;
-=======
     	String question7;
->>>>>>> 535933600b77f89a95511385b11029ec478856c7
     	String questionReset1;
     	String questionReset2;
     	String questionQuit;
@@ -59,11 +56,8 @@ public class MyApp {
     	question3 = "??";
     	question4 = "What's your name?";
     	question5 = "What's my name?";
-<<<<<<< HEAD
     	question6 = "Is Sprite good?";
-=======
-    	question7 = "HAL open the pod bay doors"
->>>>>>> 535933600b77f89a95511385b11029ec478856c7
+    	question7 = "HAL open the pod bay doors";
     	questionReset1 = "Reset computer name.";
     	questionReset2 = "Reset login counter.";
     	questionQuit = "I'm done talking for now.";
@@ -457,6 +451,7 @@ public class MyApp {
     				JOptionPane.showMessageDialog(null, "Question 6 was asked, displaying answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
     			}
     			JOptionPane.showMessageDialog(null, "Absolutely.");
+    		}
     		else if (questionAsked.equals(question7))
     		{
     			if (debugMode == 1)
