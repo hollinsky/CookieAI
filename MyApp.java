@@ -55,7 +55,7 @@ public class MyApp {
     	question3 = "??";
     	question4 = "What's your name?";
     	question5 = "What's my name?";
-    	question7 = "hal open the pod bay doors"
+    	question7 = "HAL open the pod bay doors"
     	questionReset1 = "Reset computer name.";
     	questionReset2 = "Reset login counter.";
     	questionQuit = "I'm done talking for now.";
