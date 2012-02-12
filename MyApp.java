@@ -36,6 +36,7 @@ public class MyApp {
     	String question6;
     	String question7;
     	String question8;
+    	String question9;
     	String questionReset1;
     	String questionReset2;
     	String questionQuit;
@@ -60,6 +61,7 @@ public class MyApp {
     	question6 = "Is Sprite good?";
     	question7 = "HAL open the pod bay doors";
     	question8 = "What are you wearing?";
+    	question9 = "What color is the sun?";
     	questionReset1 = "Reset computer name.";
     	questionReset2 = "Reset login counter.";
     	questionQuit = "I'm done talking for now.";
@@ -470,6 +472,12 @@ public class MyApp {
     			}
     			JOptionPane.showMessageDialog(null, "Silicon, Plastic and Copper... pretty sharp wouldn't ya say " + fName + "?");
     		}
+    		else if (questionAsked.equals(question9))
+    			if (debugMode == 1)
+    			{
+    				JOptionPane.showMessageDialog(null, "Qurestion 9 has been asked, awaiting answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
+    			}
+    				JOptionPane.showMessageDialog(null, "Your sun is yellow, but when you live where I live, the 'sun' is blue"); 
     		//New questions should be above this line, organized by question ID.
     		else if (questionAsked.equals(questionReset1))
     		{
