@@ -462,7 +462,14 @@ public class MyApp {
     			}
     			JOptionPane.showMessageDialog(null, "I'm afraid I can't do that " + fName + ".");
     		}
-    		
+    		else if (questionAsked.equals(question8))
+    		{
+    			if (debugMode == 1)
+    			{
+    				JOptionPane.ShowMessageDialog(null, "Question 8 has been asked, awaiting answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
+    			}
+    			JOptionPane.showMessageDialog(null, "Silicon, Plastic and Copper... pretty sharp wouldn't ya say " + fName + "?");
+    		}
     		//New questions should be above this line, organized by question ID.
     		else if (questionAsked.equals(questionReset1))
     		{
