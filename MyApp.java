@@ -466,7 +466,7 @@ public class MyApp {
     		{
     			if (debugMode == 1)
     			{
-    				JOptionPane.ShowMessageDialog(null, "Question 8 has been asked, awaiting answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
+    				JOptionPane.showMessageDialog(null, "Question 8 has been asked, awaiting answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
     			}
     			JOptionPane.showMessageDialog(null, "Silicon, Plastic and Copper... pretty sharp wouldn't ya say " + fName + "?");
     		}
