@@ -444,7 +444,7 @@ public class MyApp {
     			}
     			JOptionPane.showMessageDialog(null, "According to my records, your name is " + fullName + ".");
     		}
-    		else if (questionAsked.equals(question6))
+    		else if (questionAsked.equalsIgnoreCase(question6))
     		{
     			if (debugMode == 1)
     			{
