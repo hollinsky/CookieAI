@@ -33,6 +33,7 @@ public class MyApp {
     	String question3;
     	String question4;
     	String question5;
+    	String question6;
     	String questionReset1;
     	String questionReset2;
     	String questionQuit;
@@ -54,6 +55,7 @@ public class MyApp {
     	question3 = "??";
     	question4 = "What's your name?";
     	question5 = "What's my name?";
+    	question6 = "Is Sprite good?";
     	questionReset1 = "Reset computer name.";
     	questionReset2 = "Reset login counter.";
     	questionQuit = "I'm done talking for now.";
@@ -439,6 +441,14 @@ public class MyApp {
     				JOptionPane.showMessageDialog(null, "Question 5 was asked, displaying answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
     			}
     			JOptionPane.showMessageDialog(null, "According to my records, your name is " + fullName + ".");
+    		}
+    		else if (questionAsked.equals(question6))
+    		{
+    			if (debugMode == 1)
+    			{
+    				JOptionPane.showMessageDialog(null, "Question 6 was asked, displaying answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
+    			}
+    			JOptionPane.showMessageDialog(null, "Absolutely.");
     		}
     		//New questions should be above this line, organized by question ID.
     		else if (questionAsked.equals(questionReset1))
