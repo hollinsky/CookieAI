@@ -35,6 +35,7 @@ public class MyApp {
     	String question5;
     	String question6;
     	String question7;
+    	String question8;
     	String questionReset1;
     	String questionReset2;
     	String questionQuit;
@@ -58,6 +59,7 @@ public class MyApp {
     	question5 = "What's my name?";
     	question6 = "Is Sprite good?";
     	question7 = "HAL open the pod bay doors";
+    	question8 = "What are you wearing?";
     	questionReset1 = "Reset computer name.";
     	questionReset2 = "Reset login counter.";
     	questionQuit = "I'm done talking for now.";
@@ -460,6 +462,7 @@ public class MyApp {
     			}
     			JOptionPane.showMessageDialog(null, "I'm afraid I can't do that " + fName + ".");
     		}
+    		
     		//New questions should be above this line, organized by question ID.
     		else if (questionAsked.equals(questionReset1))
     		{
