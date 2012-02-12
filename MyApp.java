@@ -442,6 +442,14 @@ public class MyApp {
     			}
     			JOptionPane.showMessageDialog(null, "According to my records, your name is " + fullName + ".");
     		}
+    		else if (questionAsked.equals(question7))
+    		{
+    			if (debugMode == 1)
+    			{
+    				JOptionPane.showMessageDialog(null, "Question 7 was asked, Awaiting HAL's response", "DEBUG", JOptionPane.WARNING_MESSAGE);
+    			}
+    			JOptionPane.showMessageDialog(null, "I'm afraid I can't do that " + fName + ".");
+    		}
     		//New questions should be above this line, organized by question ID.
     		else if (questionAsked.equals(questionReset1))
     		{
