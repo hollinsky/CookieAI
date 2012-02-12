@@ -61,7 +61,7 @@ public class MyApp {
     	question6 = "Is Sprite good?";
     	question7 = "HAL open the pod bay doors";
     	question8 = "What are you wearing?";
-    	question9 = "What color isthe sun?";
+    	question9 = "What color is the sun?";
     	questionReset1 = "Reset computer name.";
     	questionReset2 = "Reset login counter.";
     	questionQuit = "I'm done talking for now.";
