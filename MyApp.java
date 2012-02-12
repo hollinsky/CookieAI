@@ -450,6 +450,13 @@ public class MyApp {
     			}
     			JOptionPane.showMessageDialog(null, "According to my records, your name is " + fullName + ".");
     		}
+    		else if (questionAsked.equals(question6))
+    		{
+    			if (debugMode == 1)
+    			{
+    				JOptionPane.showMessageDialog(null, "Question 6 was asked, displaying answer.", "DEBUG", JOptionPane.WARNING_MESSAGE);
+    			}
+    			JOptionPane.showMessageDialog(null, "Absolutely.");
     		else if (questionAsked.equals(question7))
     		{
     			if (debugMode == 1)
